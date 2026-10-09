@@ -1,4 +1,5 @@
-FROM python:3.10
+FROM  ghcr.io/astral-sh/uv:python3.10-bookworm-slim
+
 
 # सभी जरूरी पैकेज एक साथ इंस्टॉल
 RUN apt-get update && apt-get install -y \
